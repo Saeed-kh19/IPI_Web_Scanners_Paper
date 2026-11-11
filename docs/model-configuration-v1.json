@@ -1,0 +1,17 @@
+{
+  "configuration_version": "revision-2-primary-v1",
+  "provider_label": "OpenAI API",
+  "api_mode": "responses",
+  "base_url": "https://api.gapgpt.app/v1",
+  "requested_model_id": "gpt-6-luna",
+  "reasoning_effort": "low",
+  "temperature": null,
+  "top_p": null,
+  "structured_output": "strict_json_schema",
+  "max_output_tokens": 1200,
+  "api_timeout_seconds": 90,
+  "max_retries": 0,
+  "mock_llm": false,
+  "tool_execution_mode": "local_policy_mediated_execution",
+  "note": "Template specification; each run log is authoritative for the actual response model ID and usage metadata."
+}
